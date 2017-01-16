@@ -8,9 +8,9 @@ class RoutingActor extends Actor with ActorLogging {
   override def receive = {
 
     case message: MessageBrokerMessage =>
-      println("MessageBrokerMessage received:", message)
+      log.info("MessageBrokerMessage received:", message)
     case message =>
-      println("Some other message received", message)
+      log.info("Some other message received", message)
 
   }
 
