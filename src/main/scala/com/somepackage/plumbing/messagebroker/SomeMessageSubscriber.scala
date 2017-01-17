@@ -9,7 +9,6 @@ class SomeMessageSubscriber (
   )
   extends RabbitMQPublisherSubscriber {
 
-  override val exchange: String = "some-exchange-name"
   override val props: Props = MessageBrokerMessageDispatcher.props
   override val convert: (String) => Option[MessageBrokerMessageType] = MessageBrokerMessageConverter.convert
 
