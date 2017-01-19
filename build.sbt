@@ -25,6 +25,7 @@ libraryDependencies ++= Seq(
   "com.eigenroute" % "eigenroute-scalikejdbc-test-helpers_2.11" % "0.0.1" % Test
 )
 
+parallelExecution := false
 
 flywayUrl := sys.props.getOrElse("MICROSERVICE_NAME_DEFAULT_DB_DRIVER", default = "jdbc:postgresql://localhost:5432/sendsmsservice")
 flywayUser := sys.props.getOrElse("MICROSERVICE_NAME_DEFAULT_DB_USERNAME", default = "postgres")
