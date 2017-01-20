@@ -11,7 +11,7 @@ resolvers += "Eigenroute maven repo" at "http://mavenrepo.eigenroute.com/"
 libraryDependencies ++= Seq(
   "com.eigenroute" % "eigenroute-scalikejdbc-helpers-minimal-scala_2.11" % "0.0.1",
   "com.eigenroute" % "eigenroute-publish-subscribe-minimal-scala_2.11" % "0.0.4",
-  "com.eigenroute" % "eigenroute-messagebroker-messages_2.11" % "0.0.1",
+  "com.eigenroute" % "eigenroute-messagebroker-messages_2.11" % "0.0.2",
   "com.eigenroute" %% "eigenroute-util" % "0.0.2",
   "com.eigenroute" %% "eigenroute-util-test" % "0.0.2" % Test,
   "net.codingwell" %% "scala-guice" % "4.0.1",
