@@ -1,4 +1,4 @@
-package com.somepackage.plumbing
+package com.somepackage.plumbing.messagebroker
 
 import akka.actor.{Actor, ActorLogging, Props}
 import com.eigenroute.plumbing.MessageBrokerMessage
