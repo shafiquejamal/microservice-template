@@ -19,6 +19,7 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc"       % "2.4.2",
   "org.scalikejdbc" %% "scalikejdbc-test"   % "2.4.2"   % Test,
   "ch.qos.logback"  %  "logback-classic"   % "1.1.7",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0",
   "org.postgresql" % "postgresql" % "9.4.1208.jre7",
   "joda-time" % "joda-time" % "2.9.4",
   "com.typesafe" % "config" % "1.3.0",
